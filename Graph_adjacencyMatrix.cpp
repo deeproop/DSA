@@ -5,7 +5,7 @@ int main() {
     int n,m;
     cin>>n>>m;
 
-    //declaring adjacency matrix
+    //declaring adjacency matrix using n+1 as it is 1 based indexing
     int adj[n+1][n+1];
     int i,u,v;
     //taking edges input
